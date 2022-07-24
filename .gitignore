@@ -61,6 +61,15 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+# ===============================================
+# Unity Large packages - custom for this project
+# ===============================================
+Packages/com.ptc.vuforia.engine-10.8.4.tgz
+
+# Vuforia configuration
+Assets/Editor/Migration*
+Assets/Resources/VuforiaConfiguration.*
+
 # Crashlytics generated file
 crashlytics-build.properties
 
@@ -117,3 +126,4 @@ Temporary Items
 
 # VS Code
 *.vscode
+
