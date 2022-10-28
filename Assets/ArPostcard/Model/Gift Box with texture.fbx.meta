@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Gold
-    second: {fileID: 2100000, guid: 30e674d8aa2443f44bd5778166bde2ea, type: 2}
+    second: {fileID: 2100000, guid: 8585b298c5f4a674c9b7459ddc2529b4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Magenta
-    second: {fileID: 2100000, guid: f2ba042fc3f11c040b421cf69d788382, type: 2}
+    second: {fileID: 2100000, guid: c0e71cd71ce03ed41af5004744ca1f8a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: TileGreen
-    second: {fileID: 2100000, guid: c634f7a3011b582418cbd599a298e813, type: 2}
+    second: {fileID: 2100000, guid: bdc8bb4136c95d44daae8e5773f8fb36, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -28,7 +28,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Yellow
-    second: {fileID: 2100000, guid: 42e0f4bef516cb14998f2d5760eefef0, type: 2}
+    second: {fileID: 2100000, guid: 60e7694198912d842a040c817c8941e9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
