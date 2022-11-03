@@ -6,12 +6,12 @@
 
 ## 🍿 Target Audience 
 
-> ### Final user
-> + People who like AR interactions and are looking for new fun media experiences.
->
-> ### Developers
-> + XR Development Study group participants and Women Who Code members.
-> + Anybody interested in learning about AR.
+### 🙆‍♀️ Final user
++ People who like AR interactions and are looking for new fun media experiences.
+
+### 👩‍💻 Developers
++ XR Development Study group participants and Women Who Code members.
++ Anybody interested in learning about AR.
 
 ## 🧰 Tools Stack 
 
@@ -19,18 +19,18 @@
 + [Vuforia engine](https://developer.vuforia.com/) (Free Basic plan)
 + [Blender](https://www.blender.org/download/)
  
-## ✨ Content 
+## 📔 [Wiki](https://github.com/pcortezdx/ArPostcard/wiki) Content
+Keep up to date with the project development and documentation
 
-+ Design and User Interaction
-+ Application Features
-+ Setting up the project
-+ Learning resources
++ [User Interaction](https://github.com/pcortezdx/ArPostcard/wiki/User-interactions)
++ [3D Art and Design](https://github.com/pcortezdx/ArPostcard/wiki/3d-art-and-design)
++ [Application Features](https://github.com/pcortezdx/ArPostcard/wiki/app-features)
++ [Setting up the project](https://github.com/pcortezdx/ArPostcard/wiki/settings)
++ [Learning resources](https://github.com/pcortezdx/ArPostcard/wiki/learning-resources)
+
 
 ## How to Contribute
 + Guidelines
-
-## 📔 Wiki
-+ Keep up to date with the project development and documentation
 
 
 ***
