@@ -25,7 +25,7 @@ Keep up to date with the project development and documentation
 + [User Interaction](https://github.com/pcortezdx/ArPostcard/wiki/User-interactions)
 + [3D Art and Design](https://github.com/pcortezdx/ArPostcard/wiki/3d-art-and-design)
 + [Application Features](https://github.com/pcortezdx/ArPostcard/wiki/app-features)
-+ [Setting up the project](https://github.com/pcortezdx/ArPostcard/wiki/settings)
++ [Setting up the project](https://github.com/pcortezdx/ArPostcard/wiki/Project-settings)
 + [Learning resources](https://github.com/pcortezdx/ArPostcard/wiki/learning-resources)
 
 
