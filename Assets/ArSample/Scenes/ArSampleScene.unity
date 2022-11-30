@@ -150,8 +150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502204267}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.286, y: 0.243, z: -0.161}
-  m_LocalScale: {x: 0.1186493, y: 0.1186493, z: 0.1186493}
+  m_LocalPosition: {x: -0.147, y: 0.283, z: -0.204}
+  m_LocalScale: {x: 0.13960846, y: 0.13960846, z: 0.13960846}
   m_Children: []
   m_Father: {fileID: 1885458828}
   m_RootOrder: 2
@@ -401,8 +401,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108721355}
   m_LocalRotation: {x: 0.0124110235, y: -0.08711037, z: 0.1912445, w: 0.97759056}
-  m_LocalPosition: {x: -0.026, y: 0.299, z: 0.041}
-  m_LocalScale: {x: 0.20044604, y: 0.20044601, z: 0.20044602}
+  m_LocalPosition: {x: 0.003, y: 0.262, z: 0.036}
+  m_LocalScale: {x: 0.16298202, y: 0.16298199, z: 0.162982}
   m_Children: []
   m_Father: {fileID: 1885458828}
   m_RootOrder: 0
@@ -607,8 +607,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738963786}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.265, y: 0.205, z: -0.057}
-  m_LocalScale: {x: 0.2514674, y: 0.2514674, z: 0.2514674}
+  m_LocalPosition: {x: 0.198, y: 0.304, z: -0.132}
+  m_LocalScale: {x: 0.23599276, y: 0.23599276, z: 0.23599276}
   m_Children: []
   m_Father: {fileID: 1885458828}
   m_RootOrder: 1
@@ -646,8 +646,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1885458827}
   mHiddenRoot: {fileID: 0}
-  mTargetName: imagination
-  mDatasetName: Vuforia/arbook-sample.xml
+  mTargetName: ChristmasMarker-min-min
+  mDatasetName: Vuforia/ArPostcard.xml
   mCastedBehaviour: {fileID: 1885458827}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -709,13 +709,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: imagination
+  mTrackableName: ChristmasMarker-min-min
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/arbook-sample.xml
-  mAspectRatio: 0.5625
+  mDataSetPath: Vuforia/ArPostcard.xml
+  mAspectRatio: 1
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.5625
+  mHeight: 1
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mPreview: {fileID: 1885458825}
