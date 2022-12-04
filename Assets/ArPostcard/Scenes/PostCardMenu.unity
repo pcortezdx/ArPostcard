@@ -333,8 +333,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 709693918}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ChristmasMarker-min-min
-  mDatasetName: Vuforia/ArPostcard.xml
+  mTargetName: imagination
+  mDatasetName: Vuforia/arbook-sample.xml
   mCastedBehaviour: {fileID: 709693918}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -396,13 +396,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: ChristmasMarker-min-min
+  mTrackableName: imagination
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/ArPostcard.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/arbook-sample.xml
+  mAspectRatio: 0.5625
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 0.5625
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mPreview: {fileID: 709693916}
