@@ -333,7 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 709693918}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ChristmasMarker-min-min
+  mTargetName: gift-marker
   mDatasetName: Vuforia/ArPostcard.xml
   mCastedBehaviour: {fileID: 709693918}
   mMeshFilter: {fileID: 0}
@@ -396,13 +396,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: ChristmasMarker-min-min
+  mTrackableName: gift-marker
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/ArPostcard.xml
-  mAspectRatio: 1
+  mAspectRatio: 1.006154
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.006154
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mPreview: {fileID: 709693916}

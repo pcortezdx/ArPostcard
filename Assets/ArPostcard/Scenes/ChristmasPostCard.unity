@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -318,13 +318,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 977457003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: 1778676317, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 977457006}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ChristmasMarker
-  mDatasetName: Vuforia/GreetingCard.xml
+  mTargetName: ChristmasMarker-min-min
+  mDatasetName: Vuforia/ArPostcard.xml
   mCastedBehaviour: {fileID: 977457006}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -386,17 +386,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: ChristmasMarker
+  mTrackableName: ChristmasMarker-min-min
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/GreetingCard.xml
+  mDataSetPath: Vuforia/ArPostcard.xml
   mAspectRatio: 1
   mImageTargetType: 0
   mWidth: 1
   mHeight: 1
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
-  mTrackingOptimization: 0
-  mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 977457004}
 --- !u!4 &977457007
 Transform:
