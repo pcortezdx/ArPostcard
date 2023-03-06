@@ -4,13 +4,15 @@ using UnityEngine;
 using UnityEngine.Windows.Speech;
 using System.Collections.Generic;
 using System.Linq;
+using System;
+using UnityEditor;
 
 public class VoiceInputController : MonoBehaviour
 {
     //maximum rotation
     public float yRotation = 90f;
     public float lerpDuration = 0.5f;
-    
+
     //Rotation direction
     int direction = 1;
     bool isRotating;
@@ -24,8 +26,13 @@ public class VoiceInputController : MonoBehaviour
     //Animator Variable
     private Animator giftBoxAnimator;
 
+    //Particle System
+    public GameObject confetti;
+
     void Start()
     {
+        //Deactive Confetti Particle System
+        confetti.SetActive(false);
 
         //Get Animator Component
         giftBoxAnimator = GetComponent<Animator>();
@@ -34,7 +41,7 @@ public class VoiceInputController : MonoBehaviour
         animationAction.Add("open", OpenGift);
         animationAction.Add("turn left", RotateLeft);
         animationAction.Add("turn right", RotateRight);
-        
+
         //register for the phrase recognition event       
         voiceKeywordRecognizer = new KeywordRecognizer(animationAction.Keys.ToArray());
 
@@ -44,7 +51,7 @@ public class VoiceInputController : MonoBehaviour
     }
 
     private void voiceRecognized(PhraseRecognizedEventArgs args)
-    { 
+    {
         Debug.Log(args.text);
 
         // if the keyword recognized is in our dictionary, call the Action.
@@ -74,10 +81,21 @@ public class VoiceInputController : MonoBehaviour
     //Open gift box animation
     private void OpenGift()
     {
+        confetti.SetActive(false);
+
         if (giftBoxAnimator != null)
         {
             //Trigger Animation
             giftBoxAnimator.SetTrigger("OpenGift");
+
+            //Activate Confetti Particle System
+            /* TODO: improve function to get the rotation angle to display
+             different animations */
+            if (Math.Round((decimal)transform.localEulerAngles.y, 0) == 90)
+            {
+                confetti.SetActive(true);
+            }
+            
         }
     }
 
