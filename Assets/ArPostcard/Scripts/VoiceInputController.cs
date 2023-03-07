@@ -108,7 +108,7 @@ public class VoiceInputController : MonoBehaviour
         Quaternion targetRotation = transform.rotation * Quaternion.Euler(0, yRotation * direction, 0);
         while (timeElapsed < lerpDuration)
         {
-            // Using Slerp to smoothly move the object from the startRotation to Target rotation
+            // Using Lerp to smoothly move the object from the startRotation to Target rotation
             transform.rotation = Quaternion.Lerp(
                 startRotation, targetRotation, timeElapsed / lerpDuration);
             timeElapsed += Time.deltaTime;
