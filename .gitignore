@@ -69,6 +69,7 @@ Packages/com.ptc.vuforia.engine-10.8.4.tgz
 # Vuforia configuration
 Assets/Editor/Migration*
 Assets/Resources/VuforiaConfiguration.*
+QCAR/somedata16
 
 # Crashlytics generated file
 crashlytics-build.properties
